@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1520px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+}
+.object-cover{
+    object-fit: cover;
+}
+
+
+
+.bg-warning{
+    background-color: #FFD202 !important;
+}
+.text-warning{
+    color: #FFD202 !important;
+}
+.bg-dark{
+    background-color: #242424 !important;
+}
+.text-black-50{
+    color: #000 !important;
+}
+
+
+
+
+
+
+.fw-300{
+    font-weight: 300 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+
+
+/* 0 */
+.ls-001{
+    letter-spacing: -0.01em;
+}
+.ls-100{
+    letter-spacing: 0.1em;
+}
+.ls-200{
+    letter-spacing: 0.2em;
+}
+.ls-300{
+    letter-spacing: 0.03em;
+}
+.ls-002{
+     letter-spacing: -0.02em;
+}
+.ls-004{
+    letter-spacing: -0.04em;
+}
+
+
+/* 0 */
+
+
+/* 01 */
+
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-34{
+    font-size: 34px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-80{
+    font-size: 80px;
+}
+.fs-100{
+    font-size: 100px;
+}
+/* 01 */
+
+/* 02 */
+.lh-0-9{
+    line-height: 0.9;
+}
+.lh-1-2{
+    line-height: 1.2;
+}
+.lh-1-3{
+    line-height: 1.3;
+}
+.lh-1-4{
+    line-height: 1.4;
+}
+.lh-1-5{
+    line-height: 1.5;
+}
+.lh-1-7{
+    line-height: 1.7;
+}
+.lh-1-8{
+    line-height: 1.8;
+}
+
+/* 02 */
+
+
+
+
+.btn {
+    padding: 14px 28px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #FFD202;
+    border-color: #FFD202;
+}
+
+.btn-warning:hover{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* pages css start */
+.navbar-brand, .footer-logo a{
+    display: inline-block;
+   max-width: 300px;
+}
+.navbar-nav .nav-link {
+    padding: 0 !important;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar-nav>a+a {
+    margin-left: 50px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .footer-links ul li a:hover{
+    color:#FFD202;
+}
+
+.top-contact ul li span{
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    background: #FFD202;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #242424;
+    font-size: 13px;
+}
+.header-social ul li a, .footer-social ul li a {
+    color: #FFD202;
+    font-size: 25px;
+}
+button#ScrollToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffc107;
+    z-index: 99;
+    color: #ffc107;
+}
+@media(min-width:992px){
+    div#navbarOffcanvas {
+        position: inherit !important;
+        flex-direction: row;
+        visibility: visible;
+        width: auto;
+        transform: translateX(0%);
+        border-right: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    .offcanvas-body {
+        flex-grow: 0;
+        padding: 0;
+        overflow-y: auto;
+    }
+   
+}
+
+
+.carousel-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 40%);
+}
+.testimonial-sec .slick-slide {
+    padding: 0 20px;
+}
+.clien-rev {
+    min-height: 185px;
+}
+
+.footer-links ul li a, .footer-links ul li {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 3px 0;
+    display: block;
+}
+.footer-links ul li span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media(max-width:1600px){
+    .top-contact ul li span {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .fs-18 {
+        font-size: 16px;
+    }
+    .header-social ul li a, .footer-social ul li a {
+        font-size: 22px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+    .btn {
+        padding: 12px 22px;
+        font-size: 17px;
+    }
+    .navbar-brand, .footer-logo a {
+        max-width: 260px;
+    }
+    .fs-80 {
+        font-size: 55px;
+    }
+    .banner-text p.w-75 {
+        width: 95% !important;
+    }
+    .fs-20 {
+        font-size: 17px;
+    }
+    .fs-34 {
+        font-size: 28px;
+    }
+    .carousel-item {
+        height: 600px;
+    }
+    .fs-45 {
+        font-size: 38px;
+    }
+    .fs-100 {
+        font-size: 70px;
+    }
+    .fs-30 {
+        font-size: 24px;
+    }
+    .fs-40 {
+        font-size: 34px;
+    }
+    .fs-16 {
+        font-size: 14px;
+    }
+    .footer-links ul li a, .footer-links ul li {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1200px){
+    .top-contact ul li span {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .fs-18 {
+        font-size: 14px;
+    }
+    .header-social ul li a, .footer-social ul li a {
+        font-size: 20px;
+    }
+    .navbar-brand, .footer-logo a {
+        max-width: 220px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+    .navbar-nav>a+a {
+        margin-left: 40px;
+    }
+    .btn {
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+    .fs-20 {
+        font-size: 15px;
+    }
+    .fs-80 {
+        font-size: 40px;
+    }
+    .fs-34 {
+        font-size: 22px;
+    }
+    .call-img {
+        width: 55px;
+    }
+    .fs-45 {
+        font-size: 32px;
+    }
+    .abt-text p.w-75 {
+        width: 95% !important;
+    }
+    .fs-100 {
+        font-size: 50px;
+    }
+    .fs-30 {
+        font-size: 20px;
+    }
+    .fs-40 {
+        font-size: 28px;
+    }
+    .fs-16 {
+        font-size: 13px;
+    }
+    .footer-links ul li a, .footer-links ul li {
+        font-size: 16px;
+        padding: 2px 0;
+    }
+    .fs-14 {
+        font-size: 10px;
+    }
+    .clien-rev {
+        min-height: 145px;
+    }
+}
+
+@media(max-width:991px){
+    .services-heading.w-50 {
+        width: 80% !important;
+    }
+    .footer-links ul li a, .footer-links ul li {
+        font-size: 14px;
+        padding: 2px 0;
+    }
+    .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+    }
+    .navbar-toggler {
+        font-size: 30px;
+        padding: 0;
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    div#navbarOffcanvas {
+        background: #000;
+        border-right: 0 !important;
+        padding: 35px !important;
+        width: 300px;
+    }
+    .offcanvas-header .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        filter: brightness(0) invert(1);
+        opacity: 1;
+    }
+    .offcanvas-header {
+        padding: 0;
+    }
+    .navbar-nav .nav-link {
+        padding: 8px 0 !important;
+    }
+    .navbar-nav>a+a{
+        margin-left: 0;
+    }
+}
+
+@media(max-width:767px){
+    .fs-18 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:575px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .fs-80 {
+        font-size: 28px;
+    }
+    .fs-20 {
+        font-size: 12px;
+    }
+    .fs-34 {
+        font-size: 20px;
+    }
+    .call-img {
+        width: 45px;
+    }
+    .banner-text p.w-75, .abt-text p.w-75, .gallery-heading.w-75, .footer-wrap.w-75 {
+        width: 100% !important;
+    }
+    .fs-45 {
+        font-size: 25px;
+    }
+    .fs-100 {
+        font-size: 38px;
+    }
+    .fs-40 {
+        font-size: 22px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: center;
+    }
+    .navbar-brand {
+        margin-bottom: 20px;
+    }
+    .nav-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
